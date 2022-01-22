@@ -1,0 +1,15 @@
+footer {
+  background: white;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    background: $beige;
+  }
+}
